@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database', 'form_validation', 'session', 'user_agent', 'pagination', 'encryption');
+$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('form', 'url', 'tabular', 'text', 'locale', 'html', 'download', 'directory', 'migration', 'importfile');
+$autoload['helper'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -132,32 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array(
-	'Appconfig',
-	'Person',
-	'Customer',
-	'Employee',
-	'Module',
-	'Item',
-	'Item_taxes',
-	'Sale',
-	'Supplier',
-	'Inventory',
-	'Receiving',
-	'Giftcard',
-	'Item_kit',
-	'Item_kit_items',
-	'Stock_location',
-	'Item_quantity',
-	'Dinner_table',
-	'Customer_rewards',
-	'Rewards',
-	'Expense_category',
-	'Expense',
-	'Cashup',
-	'Attribute',
-	'Tax',
-	'Tax_category',
-	'Tax_code',
-	'Tax_jurisdiction'
-);
+$autoload['model'] = array();
